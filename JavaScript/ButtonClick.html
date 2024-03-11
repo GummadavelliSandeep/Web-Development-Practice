@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="mystyle2.css">
+</head>
+
+<body>
+    <h1>welcome to Web Development</h1>
+    <p id="p1">CSE</p>
+    <button onclick="change()">click</button>
+</body>
+<script>
+    function change() {
+        var x = document.getElementById("p1");
+        if (x.innerHTML == "CSE") {
+            x.innerHTML = "ECE";
+        }
+        else {
+            x.innerHTML = "CSE"
+        }
+    }
+</script>
+
+</html>
+
+</html>
