@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 200px minmax(200px, 500px);
+            grid-template-rows: 300px minmax(200px, 500px);
+        }
+
+        .items {
+            font-size: 3rem;
+            background-color: blueviolet;
+            border: 5px solid blue;
+            color: white;
+
+        }
+    </style>
+    </head>
+
+    <body>
+        <h1>Fractional-Size Grid</h1>
+        <div class="container">
+            <div class="items">1</div>
+            <div class="items">2</div>
+            <div class="items">3</div>
+            <div class="items">4</div>
+        </div>
+    </body>
+
+</html>
