@@ -1,0 +1,34 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    color: brown;
+}
+form{
+    max-width: 450px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    background-color: aqua;
+    box-shadow: 5px 5px 5px seashell;
+}
+button{
+    padding: 2px;
+    margin: 20px;
+    width: 50px;
+}
+button:hover{
+    background-color: rgb(82, 82, 226);
+    color: wheat;
+}
+#textbox{
+    width: 50%;
+    text-align: center;
+    font-size: large;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+#toCelius{
+    margin-top:10px;
+}
