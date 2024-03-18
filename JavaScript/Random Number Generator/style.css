@@ -1,0 +1,23 @@
+#randomNumber{
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 10px;
+    color: brown;
+}
+.btn-container{
+    padding-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+button{
+    padding: 0.3rem;
+    background-color: rgb(68, 68, 243);
+    border: 2px solid white;
+    border-radius: 10%;
+}
+button:hover{
+    background-color: rgb(24, 24, 219);
+    color: white;
+    cursor: pointer;
+}
