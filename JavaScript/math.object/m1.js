@@ -1,0 +1,11 @@
+Math.random() * 6;
+Math.floor();
+Math.ceil();
+Math.round();
+Math.min();
+Math.max();
+Math.PI();
+Math.sqrt();
+Math.pow();
+Math.abs();
+Math.trunc();
