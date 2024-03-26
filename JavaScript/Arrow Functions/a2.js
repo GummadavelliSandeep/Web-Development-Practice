@@ -10,3 +10,11 @@ setTimeout(function () {
 setTimeout(() => {
   console.log("Welome to Javascript Programming Language");
 }, 3000);
+
+function sum(a, b) {
+  return a + b;
+}
+
+const sum = (a, b) => {
+  return a + b;
+};
